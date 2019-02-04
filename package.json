@@ -1,0 +1,21 @@
+{
+  "name": "moveno-lake-resortv0.3",
+  "version": "1.0.0",
+  "description": "Molveno",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "frontend-basics",
+    "moveno-lake-resort",
+    "HansdeBaas"
+  ],
+  "author": "Marc",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
