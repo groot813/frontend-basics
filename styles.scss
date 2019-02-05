@@ -1,5 +1,6 @@
 $primary-color: orange;
 $secondary-color: green;
+$third-color: blue;
 $tertiary-color: #eeeeee;
 $primary-font-color: black;
 $border-radius: 4px;
@@ -13,22 +14,25 @@ body{
         height:80px;
         background-color:$secondary-color;
     }
+    main{
+        background-color: rgb(0, 255, 0);
+        }
     nav{  
-        background-color:$tertiary-color;
+        background-color:$secondary-color;
         padding: 10px;
         border-radius: 4px;   
         a{
             width: 33%;
             display: inline-block;
             text-align: center;
-            transition: 0.3s;
+            transition: 1s;
         }
         a:hover {
             color:$primary-font-color;
         }
     }
     footer{
-        background-color: yellow;
+        background-color:$third-color;
         padding: 10px;
         border-radius: 4px;
     }
