@@ -1,9 +1,13 @@
+body .menu2 {
+  height: 80px;
+  background-color: orange; }
+
 body .menu {
   height: 80px;
-  background-color: yellow; }
+  background-color: green; }
 
 body nav {
-  background-color: yellow;
+  background-color: #eeeeee;
   padding: 10px;
   border-radius: 4px; }
   body nav a {
@@ -12,7 +16,7 @@ body nav {
     text-align: center;
     transition: 0.3s; }
   body nav a:hover {
-    color: blue; }
+    color: black; }
 
 body footer {
   background-color: yellow;

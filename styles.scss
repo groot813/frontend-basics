@@ -1,10 +1,20 @@
+$primary-color: orange;
+$secondary-color: green;
+$tertiary-color: #eeeeee;
+$primary-font-color: black;
+$border-radius: 4px;
+
 body{
+    .menu2{
+        height:80px;
+        background-color: $primary-color;  
+    }
     .menu{
         height:80px;
-        background-color: yellow;
+        background-color:$secondary-color;
     }
     nav{  
-        background-color: yellow;
+        background-color:$tertiary-color;
         padding: 10px;
         border-radius: 4px;   
         a{
@@ -14,7 +24,7 @@ body{
             transition: 0.3s;
         }
         a:hover {
-            color: blue;
+            color:$primary-font-color;
         }
     }
     footer{
