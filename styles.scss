@@ -1,4 +1,8 @@
 body{
+    .menu{
+        height:80px;
+        background-color: yellow;
+    }
     nav{  
         background-color: yellow;
         padding: 10px;
@@ -9,12 +13,13 @@ body{
             text-align: center;
             transition: 0.3s;
         }
-        main{
-            footer{
-                background-color: blue;
-                padding: 10px;
-                border-radius: 4px;
-            }
+        a:hover {
+            color: blue;
         }
+    }
+    footer{
+        background-color: yellow;
+        padding: 10px;
+        border-radius: 4px;
     }
 }

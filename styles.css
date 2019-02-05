@@ -1,3 +1,7 @@
+body .menu {
+  height: 80px;
+  background-color: yellow; }
+
 body nav {
   background-color: yellow;
   padding: 10px;
@@ -7,7 +11,10 @@ body nav {
     display: inline-block;
     text-align: center;
     transition: 0.3s; }
-  body nav main footer {
-    background-color: blue;
-    padding: 10px;
-    border-radius: 4px; }
+  body nav a:hover {
+    color: blue; }
+
+body footer {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 4px; }
