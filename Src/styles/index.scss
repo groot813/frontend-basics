@@ -1,47 +1,6 @@
+$theme-colors: (
+  "primary": purple,
+  "danger": #ff4136
+);
+
 @import "./node_modules/bootstrap/scss/bootstrap";
-
-$primary-color: orange;
-$secondary-color: green;
-$third-color: blue;
-$tertiary-color: #eeeeee;
-$primary-font-color: black;
-$border-radius: 4px;
-
-body{
-    .dynamic-color{
-        background: transparent;
-        transition:0.3s all ease-out;
-        &:hover {
-            background: purple;
-        }
-    }
-    .menu{
-        height:40px;
-         }    
-    nav{  
-        background-color:$secondary-color;
-        padding: 10px;
-        border-radius: 4px; 
-        list-style-type: none;
-        
-        a{
-            width: 24%;
-            display: inline-block;
-            text-align: center;
-            transition: 1s;
-        }
-        a:hover {
-            color:$primary-font-color;
-        }
-    }
-    background-image: url("logo-512.png");
-    p::first-line {
-        color: #ff0000;
-        font-variant: small-caps;
-      }
-    footer{
-        background-color:$third-color;
-        padding: 10px;
-        border-radius: 4px;
-    }
-}
