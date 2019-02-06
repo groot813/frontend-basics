@@ -1,27 +1,28 @@
-body .menu2 {
-  height: 80px;
-  background-color: orange; }
-
-body .menu {
-  height: 80px;
-  background-color: green; }
-
-body main {
-  background-color: lime; }
-
-body nav {
-  background-color: green;
-  padding: 10px;
-  border-radius: 4px; }
-  body nav a {
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    transition: 1s; }
-  body nav a:hover {
-    color: black; }
-
-body footer {
-  background-color: blue;
-  padding: 10px;
-  border-radius: 4px; }
+body {
+  background-image: url("logo-512.png"); }
+  body .dynamic-color {
+    background: transparent;
+    transition: 0.3s all ease-out; }
+    body .dynamic-color:hover {
+      background: green; }
+  body .menu {
+    height: 40px; }
+  body nav {
+    background-color: green;
+    padding: 10px;
+    border-radius: 4px;
+    list-style-type: none; }
+    body nav a {
+      width: 24%;
+      display: inline-block;
+      text-align: center;
+      transition: 1s; }
+    body nav a:hover {
+      color: black; }
+  body p::first-line {
+    color: #ff0000;
+    font-variant: small-caps; }
+  body footer {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 4px; }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-	  "sass": "node-sass styles.scss -wo./"
+    "sass": "node-sass src/styles/index.scss -wo ./dist"
   },
   "keywords": [
     "test",
@@ -15,7 +15,11 @@
   ],
   "author": "Marc",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
   "devDependencies": {
     "node-sass": "^4.11.0"
   }
